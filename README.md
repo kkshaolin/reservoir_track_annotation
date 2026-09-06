@@ -1,12 +1,11 @@
 # สิ่งที่ส่ง
-1. ไฟล๋ notebook (psu-reservoir-dataset.ipynb)
- - เปรียนเทียบ dataset และแสดง tree
+1. ไฟล์ notebook (psu-reservoir-dataset.ipynb)
+ - เปรียบเทียบ dataset และแสดง tree
  - code การเปลี่ยน format for yolo11
  - code load+sampling พร้อมอธิบาย
 
 2. datacard ของข้อมูลที่ทำ
 3. link dataset ใน psu storage ทั้งก่อนทำและหลังทำ 
-
 
 
 
@@ -33,15 +32,3 @@
 
 ---
 
-## 3. Directory Structure (Ultralytics YOLO-Seg Format)
-โครงสร้างโฟลเดอร์สำหรับนำไปเทรนด้วย Ultralytics:
-
-```text
-reservoir_lane_dataset/
-├── data.yaml
-├── images/
-│   ├── train/                # ภาพสำหรับ Train (800 เฟรม)
-│   └── val/                  # ภาพสำหรับ Validation (200 เฟรม)
-└── labels/
-    ├── train/                # พิกัด Polygon (.txt แบบ Normalized 0-1)
-    └── val/                  # พิกัด Polygon (.txt แบบ Normalized 0-1)
