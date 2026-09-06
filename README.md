@@ -31,4 +31,8 @@
 | `4` | `sideway` | Polygon / Mask | พื้นที่นอกทางวิ่ง (Non-track area) เช่น สนามหญ้า เนินดิน และน้ำ |
 
 ---
+## 3. Sample Data Capture
 
+reservoir_track_annotation/Sample_Data_Capture
+ 
+*เป็นตัวอย่างการกำหนด Annotation แสดง Mask ผิวถนน (lane), เส้นแบ่งเลน (track_line_l, track_line_c, track_line_r) และพื้นที่ข้างทาง (sideway)*
