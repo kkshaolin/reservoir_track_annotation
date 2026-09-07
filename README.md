@@ -13,17 +13,17 @@
 
 | Class ID | Class Name | Annotation Type | Description |
 | :---: | :--- | :--- | :--- |
-| `0` | `lane` | Polygon / Mask & BBox | พื้นผิวถนน/ทางวิ่งหลักที่ใช้สัญจร |
-| `1` | `track_line_l` | Polyline / BBox / Polygon | เส้นแบ่งขอบทางฝั่งซ้าย (ขอบทางติดริมน้ำ) |
-| `2` | `track_line_c` | Polyline / BBox / Polygon | เส้นแบ่งเลนสีขาวกึ่งกลางถนน |
-| `3` | `track_line_r` | Polyline / BBox / Polygon | เส้นแบ่งขอบทางฝั่งขวา (ขอบทางติดเนินหญ้า/ทางเท้า) |
+| `0` | `lane` | Polygon / BBox | พื้นผิวถนน/ทางวิ่งหลักที่ใช้สัญจร |
+| `1` | `track_line_l` | BBox / Polygon | เส้นแบ่งขอบทางฝั่งซ้าย (ขอบทางติดริมน้ำ) |
+| `2` | `track_line_c` | BBox / Polygon | เส้นแบ่งเลนสีขาวกึ่งกลางถนน |
+| `3` | `track_line_r` | BBox / Polygon | เส้นแบ่งขอบทางฝั่งขวา (ขอบทางติดเนินหญ้า/ทางเท้า) |
 | `4` | `sideway` | Polygon / Mask | พื้นที่นอกทางวิ่ง (Non-track area) เช่น สนามหญ้า เนินดิน และน้ำ |
 
 ---
 ## 3. Sample Data Capture
 
-![Sample Annotation 1](sample.jpg)
+!(sample.jpg)
 *รูปที่ 1: ตัวอย่างการทำ Annotation เส้นแบ่งเลนและพื้นที่ข้างทางริมอ่างเก็บน้ำ*
 
-![Sample Annotation 2](sample1.jpg)
+!(sample1.jpg)
 *รูปที่ 2: ตัวอย่างการทำ Annotation เส้นขอบทางและพื้นผิวเลนบริเวณแนวร่มไม้*
