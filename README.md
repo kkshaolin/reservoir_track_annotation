@@ -1,14 +1,3 @@
-# สิ่งที่ส่ง
-1. ไฟล์ notebook (psu-reservoir-dataset.ipynb)
- - เปรียบเทียบ dataset และแสดง tree
- - code การเปลี่ยน format for yolo11
- - code load+sampling พร้อมอธิบาย
-
-2. datacard ของข้อมูลที่ทำ
-3. link dataset ใน psu storage ทั้งก่อนทำและหลังทำ 
-
-
-
 # Dataset Card Reservoir Lane Detection & Segmentation Dataset
 
 ## 1. Dataset Summary & Problem Statement
@@ -33,6 +22,8 @@
 ---
 ## 3. Sample Data Capture
 
-reservoir_track_annotation/Sample_Data_Capture
- 
-*เป็นตัวอย่างการกำหนด Annotation แสดง Mask ผิวถนน (lane), เส้นแบ่งเลน (track_line_l, track_line_c, track_line_r) และพื้นที่ข้างทาง (sideway)*
+![Sample Annotation 1](sample.jpg)
+*รูปที่ 1: ตัวอย่างการทำ Annotation เส้นแบ่งเลนและพื้นที่ข้างทางริมอ่างเก็บน้ำ*
+
+![Sample Annotation 2](sample1.jpg)
+*รูปที่ 2: ตัวอย่างการทำ Annotation เส้นขอบทางและพื้นผิวเลนบริเวณแนวร่มไม้*
