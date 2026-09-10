@@ -4,7 +4,7 @@
 * **Objective:** ชุดข้อมูลภาพเส้นทางและสภาพแวดล้อมรอบอ่างเก็บน้ำ มหาวิทยาลัยสงขลานครินทร์เพื่อนำไปฝึกสอนโมเดลกลุ่ม Ultralytics เช่น YOLOv8-seg หรือ YOLOv11-seg
 * **Source** ไฟล์วิดีโอบันทึกมุมมองหุ่นยนต์เคลื่อนที่รอบอ่างเก็บน้ำ (`psu-reservoir-2026Aug06_121427.mp4`)
 * **Sampling Method** สุ่มเฟรมกระจายอย่างสม่ำเสมอตลอดไฟล์วิดีโอจำนวน 1,001 เฟรม และตัดเฟรมแรกที่มี Noise แสงจ้าออก คงเหลือ 1,000 เฟรม
-* **Annotation Platform** CVAT (Collaborative Workspace) ร่วมกับ Segment Anything Model (SAM / SAM2)
+* **Annotation Platform** CVAT (Collaborative Workspace) ร่วมกับ Segment Anything Model (SAM2)
 
 ---
 
