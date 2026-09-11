@@ -22,8 +22,8 @@
 ---
 ## 3. Sample Data Capture
 
-!(sample.jpg)
+![Sample Annotation 1](Sample_Data_Capture/sample.png)
 *รูปที่ 1: ตัวอย่างการทำ Annotation เส้นแบ่งเลนและพื้นที่ข้างทางริมอ่างเก็บน้ำ*
 
-!(sample1.jpg)
+![Sample Annotation 2](Sample_Data_Capture/sample1.jpg)
 *รูปที่ 2: ตัวอย่างการทำ Annotation เส้นขอบทางและพื้นผิวเลนบริเวณแนวร่มไม้*
